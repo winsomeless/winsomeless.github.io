@@ -48,7 +48,7 @@ h2{
 .millThumb{
   width: 640px;
   height: 360px;
-  background-image: url("graphics/MillenniumThumb.gif");
+  background-image: url("https://raw.githubusercontent.com/winsomeless/winsomeless.github.io/main/graphics/MillenniumThumb.gif");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
