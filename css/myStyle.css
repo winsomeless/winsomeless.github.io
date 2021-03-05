@@ -23,15 +23,6 @@ body{
 a{
   text-decoration: none;
   color: white;
-  transition-timing-function: ease-out;
-}
-
-a h1{
-  transition: font-size 0.25s;
-}
-
-a h1:hover{
-  font-size: 24px;
 }
 
 h1{
@@ -56,13 +47,14 @@ h2{
 
 #Thumbnail{
   width: 75%;
-  border-radius: 5%;
+  border-radius: 10px;
   box-shadow: 3px 3px 5px #000000;
-  transition: width 0.5s, height 0.5s;
+  object-fit: contain;
+  transition: width .5s;
 }
 
 #Thumbnail:hover{
-  width: 80%;
+  object-fit: none;
 }
 
 header{
