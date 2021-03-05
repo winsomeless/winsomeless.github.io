@@ -1,0 +1,62 @@
+div{
+  text-align: center;
+}
+
+body{
+  background-color: #290810;
+  color: white;
+  font-family: monospace;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+  padding-top: 10px;
+}
+
+h1{
+  text-shadow:
+  /* Shadow X */
+  3px
+  /* Shadow Y */
+  3px
+  /* Shadow radius */
+  3px
+  /* Shadow color */
+  #631919;
+}
+
+h2{
+  display: inline-block;
+  margin: auto;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+}
+
+#Thumbnail{
+  width: 75%;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px #000000;
+  transition: width 0.5s, height 0.5s;
+}
+
+#Thumbnail:hover{
+  width: 80%;
+}
+
+header{
+  font-size: 72px;
+  text-shadow:
+  /* Shadow X */
+  4px
+  /* Shadow Y */
+  4px
+  /* Shadow radius */
+  5px
+  /* Shadow color */
+  #631919;
+}
