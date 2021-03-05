@@ -30,8 +30,11 @@
     </div>
 
     <div id="Body">
-      <body>
-        Welcome to the homepage.
-      </body>
+      <div id="BigText">
+        Welcome to my website.
+      </div>
+      <div id="BodyTextLeft">
+        I'm really black.
+      </div>
     </div>
 </html>
