@@ -1,0 +1,30 @@
+div{
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+nav{
+  color: white;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#Logo{
+  width: 40%;
+}
+
+#Teaser{
+  width: 50%;
+}
+
+footer{
+  color: white;
+  padding-top: 50px;
+}
