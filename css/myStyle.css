@@ -45,17 +45,86 @@ h2{
   padding-bottom: 50px;
 }
 
-#Thumbnail{
-  width: 75%;
+.millThumb{
+  width: 640px;
+  height: 360px;
+  background-image: url("https://raw.githubusercontent.com/winsomeless/winsomeless.github.io/main/graphics/MillenniumThumb.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   border-radius: 10px;
   box-shadow: 3px 3px 5px #000000;
-  object-fit: contain;
-  transition: width .5s;
+  transition: background-size .25s;
 }
 
-#Thumbnail:hover{
-  object-fit: none;
+.millThumb:hover{
+  background-size: 125%;
 }
+
+.kgThumb{
+  width: 640px;
+  height: 360px;
+  background-image: url("https://m.gjcdn.net/game-thumbnail/500/529102-rqp4ypzs-v4.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #000000;
+  transition: background-size .25s;
+}
+
+.kgThumb:hover{
+  background-size: 125%;
+}
+
+.fafThumb{
+  width: 640px;
+  height: 360px;
+  background-image: url("https://m.gjcdn.net/game-thumbnail/500/463686-7rxqupcq-v4.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #000000;
+  transition: background-size .25s;
+}
+
+.fafThumb:hover{
+  background-size: 125%;
+}
+
+.acThumb{
+  width: 640px;
+  height: 360px;
+  background-image: url("https://m.gjcdn.net/game-thumbnail/500/354699-qusratz5-v4.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #000000;
+  transition: background-size .25s;
+}
+
+.acThumb:hover{
+  background-size: 125%;
+}
+
+.fnaffThumb{
+  width: 640px;
+  height: 360px;
+  background-image: url("https://m.gjcdn.net/game-thumbnail/500/116171-jukfagzw-v4.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #000000;
+  transition: background-size .25s;
+}
+
+.fnaffThumb:hover{
+  background-size: 125%;
+}
+
 
 header{
   font-size: 72px;
