@@ -27,7 +27,6 @@ a{
 }
 
 h1{
-  padding-top: 100px;
   text-shadow:
   /* Shadow X */
   3px
@@ -175,4 +174,8 @@ header{
 
 #Coming{
   padding-bottom: 600px;
+}
+
+#SectionHeader{
+  padding-top: 200px;
 }
