@@ -1,10 +1,10 @@
 @font-face {
-  font-family: WarowniaNrw;
+  font-family: "WarowniaNrw";
   src: url("https://github.com/winsomeless/winsomeless.github.io/blob/main/graphics/WarowniaNrw.otf?raw=true");
 }
 
 div{
-  font-family: WarowniaNrw;
+  font-family: "WarowniaNrw";
 }
 
 div{
@@ -27,7 +27,7 @@ nav li{
 body{
   background-color: #290810;
   color: white;
-  font-family: WarowniaNrw;
+  font-family: "WarowniaNrw";
 }
 
 a{
