@@ -1,3 +1,12 @@
+@font-face {
+  font-family: WarowniaNrw;
+  src: url(WarowniaNrw.otf);
+}
+
+div{
+  font-family: WarowniaNrw;
+}
+
 div{
   text-align: center;
 }
@@ -18,7 +27,7 @@ nav li{
 body{
   background-color: #290810;
   color: white;
-  font-family: monospace;
+  font-family: WarowniaNrw;
 }
 
 a{
